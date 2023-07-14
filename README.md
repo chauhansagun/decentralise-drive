@@ -36,15 +36,6 @@ Variable that will tell us about the ownership with the hapl of Nested mapping(i
 Where rows and columns become your address.
 ----->mapping(address=>mapping(address=>bool)) ownership;
 
-         1           2            3
-    -----------------------------------
-1   |  true    |    -      |     -    |
-    -----------------------------------
-2   |          |           |          |
-    -----------------------------------
-3   |          |           |          |
-    -----------------------------------
-
 ----->mapping(Address=>mapping(address=>bool)) previousData;
 This will store the information about our previous data. We need this because we here we are not using Node.JS or any server and we are entirely dependent on our blockchain.
 
